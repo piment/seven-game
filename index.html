@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du 7</title>
+    <script src="https://kit.fontawesome.com/f9cb11a26f.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <span id="logo"><i class="fa fa-dice fa-2xl"></i></span>
+        <h1>Jeu du 7</h1>
+    </header>
+    <main>
+        <h2 id="title" class="start">Cliquer pour démarrer une nouvelle partie</h2>
+        <section id="game-zone" class="hidden">
+            <h3>C'est au Joueur <span>1</span> de jouer</h3>
+            <button class="roll-dice" data-player="">Lancer les dés</button>
+            <article id="player-1">
+                <span>joueur 1</span>
+                <span class="result">0</span>
+            </article>
+            <article id="player-2">
+                <span>joueur 2</span>
+                <span class="result">0</span>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/piment/seven-game" target="self">&copy 2022 Wild Code School <i class="fa fa-github"></i></a>
+    </footer>
+</body>
+</html>
